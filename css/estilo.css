@@ -1,43 +1,46 @@
+
 *{
-	
-	color: #fff;
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	font-family: Georgia;
+	color: #fff;
 }
+
 body{
 	background-color: #000;
 }
 
 .col{
+	border-radius: 10px;
+	background: linear-gradient(45deg, #fff, #000,#fff);
 	position: absolute;
-	width: 700px;
-	height: 500px;
 	
-	top: 50%;
+	width: 85%;
 	left: 50%;
+	top: 50%;
 	transform: translate(-50%, -50%);
-	
-
-	box-shadow: 5px 5px 5em #fff;
-	background: linear-gradient(#000,#fff);
+	margin-top: 10px;
+	box-shadow: 5px 5px 10px #ccc;
 }
 
 .myCol{
+	
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
+	width: 80%;
 	display: flex;
-	width: 500px;
-    align-items: center;
-	justify-content: center;
 	flex-direction: column;
+	flex-flow: row wrap;
+	justify-content: center;
+}
 
-}
-.myCol h1{
-	padding: 1em;
-}
-.myCol p{
-	width: 400px;
-	text-align: justify;
+.myCol h1 {
+	color: #ccc;
 	padding: .5em;
+}
+
+.myCol p{
+	text-align: justify;
+	margin: 5%;
 }
